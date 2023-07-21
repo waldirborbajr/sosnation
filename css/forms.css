@@ -1,0 +1,69 @@
+html, body{
+	font-family: verdana, arial, sans-serif;
+	font-size: 12px;
+}
+
+#dv_screen{
+border: 5px solid #e8eef7; 
+background-color: #7799bb;
+box-shadow: 10px 10px 5px #888; 
+-moz-border-radius: 2em 1em;
+border-radius: 2em 1em;
+padding: 5px 5px 5px 15px;
+/*width: 850px;*/
+/*height: 450px;*/
+}
+
+label
+{
+float:left;
+width:10em;
+text-align:right;
+margin-right:1em;
+}
+
+#dv_assistencia_list{
+height: 300px;
+overflow: auto;
+}
+
+th{
+text-align: left;
+}
+
+thead tr.head th {
+background-color: #bbb;
+}
+
+tbody tr.even td {
+background-color: #eee;
+font-family: verdana, arial, sans-serif;
+font-weight: bold;
+color: #000000;
+
+}
+
+tbody tr.odd td {
+background-color: #fff;	
+}
+/*
+table#tb_search {
+    border-collapse: collapse;   
+}
+#tb_search tr {
+    background-color: #eee;
+    border-top: 1px solid #fff;
+}
+#tb_search tr:hover {
+    background-color: #ccc;
+}
+#tb_search th {
+    background-color: #fff;
+}
+#tb_search th, #tb_search td {
+    padding: 3px 5px;
+}
+#tb_search td:hover {
+    cursor: pointer;
+}
+*/

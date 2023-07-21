@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html charset="UTF-8"> 
+<head>
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<meta http-Equiv="Cache-Control" content="no-cache, no-store, must-revalidate, Post-Check=0, Pre-Check=0"/> 
+<meta http-Equiv="Pragma" content="no-cache, no-store, must-revalidate"/> 
+<meta http-Equiv="Expires" content="-1"/> 
+<meta http-Equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT"/> 
+
+<!-- css -->
+<link rel="stylesheet" href="css/sosnacoes.css" type="text/css" /> 
+<link rel="stylesheet" href="css/forms.css" type="text/css" /> 
+<!-- /css -->
+
+<!-- javascript -->
+<script type="text/javascript" src="js/jquery-1.6.2.min.js"> </script>
+<script type="text/javascript" src="js/jquery.maskedinput-1.3.js"> </script>
+<script type="text/javascript" src="js/jquery.price_format.1.5.js"> </script>
+<script type="text/javascript" src="appjs/session.action.js"> </script>
+<script type="text/javascript" src="appjs/chamado.js" > </script>
+<!-- /javascript -->
+
+</head>
+
+<body>
+
+<div class="messagebox" style="display:none" id="messageBox"></div>
+
+<div id="dv_screen">
+	c h a m a d o
+	
+<form id="frm_login" action="" method="POST">
+	<table border="0" cellpadding="2" cellspacing="2">
+		<tbody>
+			<tr>
+				<td><label>Cliente:</label></td>
+				<td width="60"><input type="text" id="cliente" value="" size="42" maxlength="40"/> 
+				<td><label>Fone:</label></td> 
+				<td><input type="text" id="fone" value="" size="11" maxlength="9"/></td>
+			</tr>
+			<tr>
+				<td><label>Veículo:</label></td>
+				<td><input type="text" id="veiculo" value="" size="42" maxlength="40"/></td>
+				<td><label>Cor:</label></td> 
+				<td><input type="text" id="cor" value="" size="22" maxlength="20"/></td>
+			</tr>
+			<tr>
+				<td><label>Placa:</label></td> 
+				<td><input type="text" id="placa" value="" size="10" maxlength="8"/></td>
+				<td><label>Aceito em:</label></td> 
+				<td><input type="text" id="aceito" value="" size="12" maxlength="10"/></td>
+			</tr>
+			<tr>
+				<td valign="top"><label>Local:</label></td>
+				<td><textarea rows="2" cols="45" id="local"></textarea></td>
+				<td valign="top"><label>Destino:</label></td>
+				<td><textarea rows="2" cols="45" id="destino"></textarea></td>
+			</tr>
+			<tr>
+				<td><label>Assistência:</label></td>
+				<td><span id="dv_assistencia"></span></td>
+				<td><label>Nr. Pedido:</label></td> 
+				<td><input type="text" id="nrpedido" value="" size="12" maxlength="10"/> </td>
+			</tr>
+			<tr>
+				<td><label>H.Pedido:</label></td> 
+				<td><input type="text" id="hacionamento" value="" size="7" maxlength="5"/></td> 
+				<td><label>H.Passado:</label></td> 
+				<td><input type="text" id="hpassado" value="" size="7" maxlength="5"/> </td>
+			</tr>
+			<tr>
+				<td><label>Previsão:</label></td> 
+				<td><input type="text" id="previsao" value="" size="4" maxlength="2"/> </td>
+				<td><label>Folha:</label></td> 
+				<td><input type="text" id="folha" value="" size="8" maxlength="6"/> </td>
+			</tr>
+			<tr>
+				<td><label>Check List:</label></td> 
+				<td><input type="text" id="chklist" value="" size="8" maxlength="6"/></td>
+				<td><label>Serviço:</label></td> 
+				<td><input type="text" id="servico" value="" size="8" maxlength="6"/></td>
+			</tr>
+			<tr>
+				<td><label>Motorista:</label></td>
+				<td><span id="dv_motorista"></span></td>
+				<td><label>Frota:</label></td>
+				<td><input type="text" id="frota" value="" size="6" maxlength="4"/></td>
+			</tr>
+			<tr>
+				<td><label>KM inicial:</label></td> 
+				<td><input type="text" id="kminicial" value="" size="12" maxlength="10"/></td>
+				<td><label>KM Final:</label></td> 
+				<td><input type="text" id="kmfinal" value="" size="12" maxlength="10"/> </td>
+			</tr>
+			<tr>
+				<td><label>Concluido Por:</label></td> 
+				<td><span id="dv_atendente"></span></td>
+				<td><label>Pedágio R$:</label></td> 
+				<td><input type="text" id="pedagio" value="" size="10" maxlength="8"/> </td>
+			</tr>
+			<tr>
+				<td><label>Total R$:</label></td> 
+				<td><input type="text" id="valor" value="" size="10" maxlength="8"/> </td>
+				<td><label>N.F:</label></td> 
+				<td><input type="text" id="notafiscal" value="" size="7" maxlength="5"/> </td>
+			</tr>
+			<tr>
+				<td valign="top"><label>Observação:</label></td> 
+				<td><textarea rows="3" cols="45" id="observacao"></textarea> 
+				</td>
+			</tr>
+			<tr>
+				<td><button id="cmd_salvar" value="" type="button"> Gravar</button>
+				<a href="chamado.html" target="frame_content"><button id="cmd_back" value="" type="button"> Novo</button></a>
+				<a href="chamado-pesq.html" target="frame_content"><button id="cmd_back" value="" type="button"> Voltar</button></a>
+
+			</tr>
+		</tbody>
+	</table>
+
+	<input type="hidden" name="id" value="" id="id" />
+
+</form>
+	
+</div>
+
+</body>
+</html>
