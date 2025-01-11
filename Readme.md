@@ -2,7 +2,7 @@
 
 # B+ Tecnologia da Informação - SOSNações
 
- OdontoFINE CRM.
+ SOSNation CRM - 2012
 
 ## License
 
